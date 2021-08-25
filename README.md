@@ -10,3 +10,4 @@ Fall 2021
 +First name
 +Last name
 *Date of Birth
+*gender
