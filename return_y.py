@@ -12,6 +12,7 @@ def find_slope_b():
     slope = (int(coord[3])-int(coord[1]))/(int(coord[2])-int(coord[0]))
     b = int(coord[1])-float(slope)*int(coord[0])
     return slope, b
+    
 
 def return_y():
     slope, b = find_slope_b()
