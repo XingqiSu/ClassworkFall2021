@@ -1,3 +1,5 @@
+import pytest
+
 @pytest.mark.parametrize("input1, input2, expected", [
     ([1,2,2,3], [3],[4.0])])
 def test_return_y(input1, input2, expected):
@@ -9,5 +11,5 @@ def test_return_y(input1, input2, expected):
     ([1,2,2,3], [1,1])])
 def test_return_y_slope(input, expected):
     from return_y import find_slope_b
-    answer1, answer2 = find_slope_b(input)
+    answer = find_slope_b(input)
     assert answer == expected
